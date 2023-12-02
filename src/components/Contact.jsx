@@ -99,7 +99,7 @@ const Contact = () => {
           <div className='flex flex-row items-center space-x-5 text-lg text-gray-300'>
             <img src={skype} className='w-1/6' />
             <div>
-              <p className='text-2xl'>apple9723</p>
+              <p className='text-2xl'>Mark Teves</p>
               <a onClick={() => copyToClipboard('live:.cid.b9f0dadc04892502')} className='underline cursor-pointer'>live:.cid.b9f0dadc04892502</a>
             </div>
           </div>
@@ -111,7 +111,7 @@ const Contact = () => {
             <img src={discord} className='w-1/6' />
             <div>
               <p className='text-2xl'></p>
-              <a onClick={() => copyToClipboard('apple9723')} className='underline cursor-pointer'></a>
+              <a onClick={() => copyToClipboard('apple9723')} className='underline cursor-pointer'>apple9723</a>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ const Contact = () => {
           <div className='flex flex-row items-center space-x-5 text-lg text-gray-300'>
             <img src={github} className='w-1/6' />
             <div>
-              <p className='text-2xl'>apple9723</p>
+              <p className='text-2xl'>Mark Teves</p>
               <a href='https://github.com/MarkTeves' target='_blank' className='underline cursor-pointer'>https://github.com/MarkTeves</a>
             </div>
           </div>
